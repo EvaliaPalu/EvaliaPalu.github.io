@@ -1,0 +1,78 @@
+body {
+    /* star body */
+    background: peachpuff;
+    color : rgb(255, 0, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1,5em;
+    margin: 0ch;
+    padding: 0;
+}
+/* end body*/
+
+/* star debug */
+
+.bg-green {
+    background-color: royalblue;
+}
+.bg-red{
+    background-color: blueviolet;
+}
+/*end debug*/
+
+/* star container*/
+.container {
+    margin: 5px auto;
+    overflow: auto;
+    width: 100%;
+}
+.container-full{
+    margin  : 10px auto;
+    overflow : auto;
+    width: 100%;
+}
+/* end container*/
+
+/*star logo*/
+.logo {
+    text-align: center;
+}
+/*end logo/*
+
+/*star menu primer*/
+.menu-primer ul {
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 30px;
+
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0px rgba(0,0,0,.14),
+        0 1px 18px 0px rgba(0,0,0,.12);
+
+}
+
+.menu-primer li{
+    border-right: 1px solid rgba(207, 70, 207, 0.333);
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: brown;
+    font-size: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    
+}
+.menu-primer a:hover {
+    background color : #f7f7f7;
+    color: #00000; 
+    text-decoration : none;
+}
+.menu-primer .active {
+    background-color: blueviolet;
+    color: #333333;
+    text-decoration : none;
+}

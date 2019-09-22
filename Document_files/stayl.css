@@ -1,0 +1,28 @@
+body {
+    /* star body */
+    background: peachpuff;
+    color : rgb(255, 0, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1,5em;
+    margin: 0ch;
+    padding: 0;
+}
+/* end body*/
+
+/* star debug */
+.bg-peachpuff {
+    background-color: peachpuff;
+}
+.bg-green {
+    background-color: green;
+}
+/*end debug*/
+
+/* star container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* end container*/
